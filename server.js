@@ -1,8 +1,6 @@
 import express from "express";
 import axios from "axios";
-import queryString from "query-string";
 import bodyParser from "body-parser";
-import WeatherCodes from "./data/code.json" assert { type: "json" };
 import cors from "cors";
 import { config } from "dotenv";
 
